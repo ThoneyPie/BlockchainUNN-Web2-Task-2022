@@ -1,0 +1,217 @@
+body{
+    background-color: rgb(255, 255, 255);
+   
+}
+
+.navbar-brand{
+    font-family: 'Faster One', cursive;
+    font-size: larger;
+}
+.container-fluid{
+    background-color: rgba(38, 128, 38, 0.738);
+}
+
+img.founders{
+    border-radius: 50%;
+    border: 3px solid;
+    border-color: rgb(136, 197, 74);
+    box-shadow: 0px 10px 20px  rgba(184, 184, 184, 0.9), 0 6px 6px rgba(0,0,0,0.93);
+    
+    margin-left: 30px;
+       
+}
+
+div#ifra{
+background-color: rgb(255, 255, 255);
+display: flex;
+justify-content: center;
+padding:30px;
+font-family: monospace;
+
+}
+
+div#ifr{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+div.conf{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+div > iframe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+    
+}
+/*figure{
+    display: flex;
+    flex-direction:column;
+}*/
+
+figcaption{
+    text-align: center;
+    padding-left: 40px;
+    color: green;
+}
+div#figs{
+    display: flex;
+    flex-direction: row;
+ justify-content: space-evenly;
+}
+
+div#fcap{
+    text-align: center;
+    margin-bottom: 8px;
+    padding: 5px;
+    background-color: rgba(54, 179, 46, 0.666);
+    font-family: 'Faster One', cursive;
+    
+}
+
+
+
+div#social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding-left:100px;
+    padding-right: 100px;
+    background-color: rgba(233, 241, 233, 0.472);
+}
+
+div#social-media a > img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+a:hover{
+    background-color: rgba(88, 134, 42, 0.791);
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-family:monospace;
+    text-transform: capitalize;
+    color: rgb(111, 136, 111);
+}
+
+
+h1{
+    font-size: 18px;
+    display:flex;
+    justify-content: center;
+    font-family: monospace;
+    text-transform: uppercase;
+    padding-top: 12px;
+    margin-top: 12px;
+    color: rgba(69, 129, 69, 0.95);
+}
+
+p{
+    margin:8px;
+    
+}
+p#aim{
+    margin: 8px;
+    padding: 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    background-color: rgb(137, 197, 119);
+    padding: 15px;
+    font-size: 12px;
+}
+
+#bud{
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    margin:0px;
+    padding: 10px;
+    justify-content: center;
+    font-family: 'Faster one', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+@media screen and (max-width: 900px) {
+    #bud{font-size: 20px;}
+    body{
+        font-size: 13px;
+        margin: 5px;
+        
+    }
+
+    div > iframe{
+        width: 600px;
+        margin: 15px;
+        border-radius: 15px;
+        
+    }
+     h6{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+    }
+
+    div#figs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: -20px;
+        
+    }
+    img.founders{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    figcaption{
+        
+        color: rgba(27, 140, 27, 0.664);
+    }
+
+    div#social-media{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+    #bud{
+        font-size: 14px;
+    }
+
+   
+   img.founders{
+       align-items: center;
+    }
+    div > iframe{
+        width: 600px;
+        height: 200px;
+        margin: 15px;
+        border-radius: 15px;
+        
+    }
+    h2{
+        font-size: 16px;
+    }
+
+   }
